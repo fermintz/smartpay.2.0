@@ -20,7 +20,6 @@
 </template>
 
 <script lang="ts">
-W
 
 definePageMeta({
   layout:'second',
