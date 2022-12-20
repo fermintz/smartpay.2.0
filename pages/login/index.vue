@@ -13,6 +13,7 @@
         <p>한 번의 가입으로 매장의 장비를 편리하게<br/>결제할 수 있습니다.</p>
       </div>
       <form>
+        <label>세탁프리워시 금정점</label>
         <input v-model="id" type="text" placeholder="전화번호를 입력해주세요"/>
         <el-button plain @click="$router.push('/login/signUp')">로그인</el-button>
       </form>
@@ -179,7 +180,17 @@ const id = ref('')
   }
 
   form{
-    margin-top:20px;
+    margin-top:25px;
+    label{
+      display:block;
+      font-size:14px;
+      margin-bottom:10px;
+      &:before{
+        content:'*';
+        color:#d22828;
+        margin-right:5px;
+      }
+    }
     input{
         width:100%;
         height:45px;

@@ -39,6 +39,7 @@
         <dt>매장 위치</dt>
         <dd>
           <div id="map" style="width:100%;height:100%;">
+            카카오맵
           </div>
         </dd>
       </dl>
@@ -55,7 +56,6 @@
 </template>
 
 <script lang="ts" setup>
-
 
 </script>
 
