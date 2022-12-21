@@ -187,7 +187,7 @@ const id = ref('')
       margin-bottom:10px;
       &:before{
         content:'*';
-        color:#d22828;
+        color:#d22828; 
         margin-right:5px;
       }
     }

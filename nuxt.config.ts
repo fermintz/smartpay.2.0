@@ -1,7 +1,7 @@
 const lifecycle = process.env.npm_lifecycle_event;
 
 export default defineNuxtConfig({
-  ssr:false,
+  ssr:true,
   css:[
     "~/assets/styles/global.scss"
   ],
@@ -17,5 +17,6 @@ export default defineNuxtConfig({
       ],
 
     },
-  }
+  },
+  
 })
